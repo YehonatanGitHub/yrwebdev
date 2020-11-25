@@ -15,7 +15,7 @@ li {
   text-decoration: none;
 }
 .head {
-  background: url('/yrwebdev/pictures/city.gif');
+  background: url('/pictures/city.gif');
   height: 614px;
 }
 .head img {
@@ -379,7 +379,7 @@ footer li:nth-child(3) img {
     font-size: 20px;
   }
   .head {
-    background: url(/yrwebdev/pictures/city.gif);
+    background: url(/pictures/city.gif);
     height: 843px;
     background-repeat: no-repeat;
     background-size: cover;
