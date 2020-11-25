@@ -282,7 +282,7 @@ footer li:nth-child(3) img {
     font-size: 20px;
   }
   .nested-skill-card img {
-    width: 60%;
+    width: 40%;
   }
   .site-nav h1 {
     grid-column: 1/2;

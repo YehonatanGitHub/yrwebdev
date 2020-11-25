@@ -5,10 +5,10 @@
   <title>Yehonatan Roumani</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta charset="utf-8" />
-
-  <!-- <meta name="viewport" content="width=device-width,initial-scale=1"> -->
-  <!-- <meta content="width=device-width, initial-scale=1" name="viewport" /> -->
+  <script type="text/javascript" src="script.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
   <link rel="stylesheet" type="text/css" href="style.css" />
+
 </head>
 
 <body>
@@ -124,10 +124,10 @@
   <section id="contact">
     <h3>Contact Me</h3>
     <form>
-      <input type="text" placeholder="NAME">
-      <input type="email" placeholder="EMAIL">
-      <textarea name="text" rows="5" placeholder="YOUR MESSAGE"></textarea>
-      <button class="button">Send</button>
+      <input type="text" id="name" placeholder="NAME">
+      <input type="email" id="email" placeholder="EMAIL">
+      <textarea name="text" id="message" rows="5" placeholder="YOUR MESSAGE"></textarea>
+      <button class="button" onclick="sendEmail()">Send</button>
     </form>
   </section>
 
