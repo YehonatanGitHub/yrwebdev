@@ -379,7 +379,7 @@ footer li:nth-child(3) img {
     font-size: 20px;
   }
   .head {
-    background: url(/pictures/city.gif);
+    background: url('/pictures/city.gif');
     height: 843px;
     background-repeat: no-repeat;
     background-size: cover;
