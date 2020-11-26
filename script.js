@@ -24,3 +24,7 @@ function sendEmail() {
   // console.log(email1);
   // console.log('sent');
 }
+
+function test() {
+  console.log('test');
+}
