@@ -11,5 +11,6 @@ function sendEmail() {
     Subject: 'Email from My web site contact form: ' + name,
     Body: email + body,
   }).then((message) => alert(message));
+  console.log(email);
   console.log('sent');
 }
