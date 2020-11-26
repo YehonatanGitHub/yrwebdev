@@ -1,4 +1,5 @@
 function sendEmail() {
+  console.log('start');
   let name = document.getElementById('name').value;
   let email = document.getElementById('email').value;
   let body = document.getElementById('message').value;
