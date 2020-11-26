@@ -5,7 +5,7 @@ function sendEmail() {
   let body = document.getElementById('message').value;
   let message = 'message sent';
   Email.send({
-    SecureToken: 'af057226-e591-4d8b-8d51-8309e688b544',
+    SecureToken: '8c6d47f7-f175-474d-9571-477c6f8c5f86',
     To: '‫jsformsubmit@gmail.com‬',
     From: '‫jsformsubmit@gmail.com‬',
     Subject: 'Email from My web site contact form: ' + name,
